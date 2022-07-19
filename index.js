@@ -20,6 +20,7 @@ function writeCards(name, event) {
     const newArray = []
     for (let i = 0; i < name.length; i++) {
         newArray.push(`Thank you, ${name[i]}, for the wonderful ${event} gift!`);
+
     }
     return newArray
 
@@ -33,7 +34,9 @@ function writeCards(name, event) {
 function countDown() {
     let n = 10
     while (n >= 0) {
+
         console.log(n)
+
         n--
     }
 
